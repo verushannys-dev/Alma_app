@@ -1,0 +1,7 @@
+[
+  { "id": "laboratorio", "nombre": "Laboratorio" },
+  { "id": "odontologia", "nombre": "Odontología" },
+  { "id": "cardiologia_infantil", "nombre": "Cardiología infantil" },
+  { "id": "cardiologia", "nombre": "Cardiología" },
+  { "id": "dermatologia", "nombre": "Dermatología" }
+]

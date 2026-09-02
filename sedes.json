@@ -1,0 +1,65 @@
+[
+  {
+    "id": "hiper_libertad",
+    "nombre": "Hiper Libertad",
+    "direccion": "(ilustrativo — falta confirmar)",
+    "zona": "Gran Mendoza",
+    "localidad": "(ilustrativo — falta confirmar)",
+    "horario": "(ilustrativo — falta confirmar)",
+    "servicios": ["laboratorio", "odontologia", "cardiologia"]
+  },
+  {
+    "id": "xeltahuina",
+    "nombre": "Xeltahuina",
+    "direccion": "Salta 877",
+    "zona": "Gran Mendoza",
+    "localidad": "(ilustrativo — falta confirmar)",
+    "horario": "(ilustrativo — falta confirmar)",
+    "servicios": ["laboratorio", "cardiologia_infantil"]
+  },
+  {
+    "id": "lujan_de_cuyo",
+    "nombre": "Luján de Cuyo",
+    "direccion": "(ilustrativo — falta confirmar)",
+    "zona": "Gran Mendoza",
+    "localidad": "Luján de Cuyo",
+    "horario": "(ilustrativo — falta confirmar)",
+    "servicios": ["odontologia", "cardiologia_infantil"]
+  },
+  {
+    "id": "maipu",
+    "nombre": "Maipú",
+    "direccion": "(ilustrativo — falta confirmar)",
+    "zona": "Gran Mendoza",
+    "localidad": "Maipú",
+    "horario": "(ilustrativo — falta confirmar)",
+    "servicios": ["laboratorio", "odontologia"]
+  },
+  {
+    "id": "san_carlos",
+    "nombre": "San Carlos (ilustrativo — falta confirmar sede real de la zona)",
+    "direccion": "(ilustrativo — falta confirmar)",
+    "zona": "Valle de Uco",
+    "localidad": "San Carlos",
+    "horario": "(ilustrativo — falta confirmar)",
+    "servicios": ["laboratorio"]
+  },
+  {
+    "id": "san_martin",
+    "nombre": "San Martín (ilustrativo — falta confirmar sede real de la zona)",
+    "direccion": "(ilustrativo — falta confirmar)",
+    "zona": "Zona Este",
+    "localidad": "San Martín",
+    "horario": "(ilustrativo — falta confirmar)",
+    "servicios": ["laboratorio", "odontologia"]
+  },
+  {
+    "id": "san_rafael",
+    "nombre": "San Rafael (ilustrativo — falta confirmar sede real de la zona)",
+    "direccion": "(ilustrativo — falta confirmar)",
+    "zona": "Zona Sur",
+    "localidad": "San Rafael",
+    "horario": "(ilustrativo — falta confirmar)",
+    "servicios": ["laboratorio", "odontologia", "cardiologia_infantil", "cardiologia", "dermatologia"]
+  }
+]

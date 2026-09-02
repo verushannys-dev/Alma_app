@@ -1,0 +1,73 @@
+{
+  "_nota": "Datos ficticios para simulación — ningún DNI, turno ni horario acá es real.",
+
+  "turnos_activos": [
+    {
+      "id": "demo-t1",
+      "beneficiario_dni": "20111222",
+      "beneficiario_nombre": "(demo) afiliado titular",
+      "especialidad": "odontologia",
+      "sede_id": "lujan_de_cuyo",
+      "fecha": "2026-09-02",
+      "hora": "11:30",
+      "estado": "confirmado"
+    },
+    {
+      "id": "demo-t2",
+      "beneficiario_dni": "20555666",
+      "beneficiario_nombre": "(demo) beneficiario con cupo lleno",
+      "especialidad": "laboratorio",
+      "sede_id": "hiper_libertad",
+      "fecha": "2026-08-29",
+      "hora": "09:00",
+      "estado": "confirmado"
+    },
+    {
+      "id": "demo-t3",
+      "beneficiario_dni": "20555666",
+      "beneficiario_nombre": "(demo) beneficiario con cupo lleno",
+      "especialidad": "odontologia",
+      "sede_id": "maipu",
+      "fecha": "2026-09-05",
+      "hora": "10:00",
+      "estado": "confirmado"
+    },
+    {
+      "id": "demo-t4",
+      "beneficiario_dni": "20555666",
+      "beneficiario_nombre": "(demo) beneficiario con cupo lleno",
+      "especialidad": "cardiologia_infantil",
+      "sede_id": "xeltahuina",
+      "fecha": "2026-09-10",
+      "hora": "15:00",
+      "estado": "confirmado"
+    }
+  ],
+
+  "_nota_turnos_activos": "20111222 sirve para 'ya tiene vigente' (odontología, en Luján). 20555666 ya tiene 3 activos de especialidades distintas — sirve para el límite de 3, que bloquea sin importar qué especialidad nueva pida. 45333444 ('el hijo' del caso de uso) no tiene ningún turno activo todavía.",
+
+  "franjas_disponibles": [
+    { "sede_id": "hiper_libertad", "especialidad": "odontologia",
+      "franjas": [{"fecha": "2026-09-01", "hora": "09:00"}, {"fecha": "2026-09-01", "hora": "14:30"}] },
+    { "sede_id": "hiper_libertad", "especialidad": "laboratorio",
+      "franjas": [{"fecha": "2026-09-01", "hora": "08:00"}, {"fecha": "2026-09-02", "hora": "08:30"}] },
+    { "sede_id": "hiper_libertad", "especialidad": "cardiologia",
+      "franjas": [{"fecha": "2026-09-03", "hora": "11:00"}, {"fecha": "2026-09-04", "hora": "09:00"}] },
+    { "sede_id": "xeltahuina", "especialidad": "cardiologia_infantil",
+      "franjas": [{"fecha": "2026-09-02", "hora": "11:00"}, {"fecha": "2026-09-04", "hora": "16:00"}] },
+    { "sede_id": "xeltahuina", "especialidad": "laboratorio",
+      "franjas": [{"fecha": "2026-09-01", "hora": "07:30"}] },
+    { "sede_id": "lujan_de_cuyo", "especialidad": "cardiologia_infantil",
+      "franjas": [{"fecha": "2026-09-03", "hora": "09:30"}, {"fecha": "2026-09-05", "hora": "13:00"}] },
+    { "sede_id": "lujan_de_cuyo", "especialidad": "odontologia",
+      "franjas": [{"fecha": "2026-09-04", "hora": "10:00"}] },
+    { "sede_id": "maipu", "especialidad": "odontologia",
+      "franjas": [{"fecha": "2026-09-01", "hora": "09:00"}, {"fecha": "2026-09-02", "hora": "10:15"}] },
+    { "sede_id": "maipu", "especialidad": "laboratorio",
+      "franjas": [{"fecha": "2026-09-01", "hora": "08:00"}] },
+    { "sede_id": "san_rafael", "especialidad": "cardiologia",
+      "franjas": [{"fecha": "2026-09-05", "hora": "10:00"}] }
+  ],
+
+  "_nota_franjas": "'lujan_de_cuyo' a propósito NO tiene ninguna entrada para 'cardiologia' (adultos) — sí tiene 'cardiologia_infantil', son especialidades distintas. Es el caso de uso: pedir cardiología en Luján debe ofrecer Hiper Libertad (misma zona, Gran Mendoza), no confundirse con la infantil que Luján sí tiene. 'san_carlos' (Valle de Uco) no tiene ninguna entrada de cardiología de ningún tipo — sirve para 'no hay en toda la zona, preguntar antes de ampliar'."
+}

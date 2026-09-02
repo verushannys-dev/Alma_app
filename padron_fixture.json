@@ -1,0 +1,21 @@
+{
+  "_nota": "Datos 100% ficticios, para probar la verificación de nivel 2 vía una API real (no archivo local) — ver spec_orquestador.md sección 8 y spec_turnos.md sección A3a. Ningún DNI ni nombre acá corresponde a una persona real. Cualquier DNI que NO aparezca en esta lista se interpreta como 'no existe en el padrón' — no hace falta una entrada aparte para ese caso.",
+
+  "afiliados": [
+    {
+      "dni": "20111222",
+      "nombre": "Afiliado de Prueba Uno (ficticio)",
+      "estado": "activo"
+    },
+    {
+      "dni": "20555666",
+      "nombre": "Afiliado de Prueba Dos (ficticio)",
+      "estado": "activo"
+    },
+    {
+      "dni": "20999888",
+      "nombre": "Afiliado de Prueba Tres (ficticio)",
+      "estado": "baja"
+    }
+  ]
+}
